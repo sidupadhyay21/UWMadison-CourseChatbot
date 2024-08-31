@@ -9,13 +9,13 @@ How to use:
 2. Create a .env file with your OpenAI key
    - nano .env (this will open a text editor in the terminal where you have to type out one line)
    - OPENAI_API_KEY = "<your key>"
-4. Stay in project folder and run embeddings.py
+3. Stay in project folder and run embeddings.py
    - python3 embeddings.py
    - this will generate an embeddings file, it will take around an hour to run but you only have to do this the first time
-5. Run the streamlit app
+4. Run the streamlit app
    - streamlit run <location that you've saved the project>/UWMadison-CourseChatbot/embeddingChatbot.py
 
-Extra:
-1. The course data used for this chatbot came from https://github.com/maggardcolin/uw-madison-course-data. You can use this repository to get updated course data.
+Optional:
+5. The course data used for this chatbot came from https://github.com/maggardcolin/uw-madison-course-data. You can use this repository to get updated course data.
    - follow this repositories instructions to get a json file and move that file back into the course chatbot project folder.
    - run the toCSV.py file with your new data as an argument to prep the data to be used to make new embeddings
