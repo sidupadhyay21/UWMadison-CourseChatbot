@@ -1,6 +1,7 @@
 # UWMadison-CourseChatbot
 
 How to use:
+
 1. Download this repository and all necessary python libraries to your device
    - navigate into the project folder and install the libraries using pipreqs
    - pip install pipreqs
@@ -15,7 +16,6 @@ How to use:
 4. Run the streamlit app
    - streamlit run <location that you've saved the project>/UWMadison-CourseChatbot/embeddingChatbot.py
 
-Optional:
-5. The course data used for this chatbot came from https://github.com/maggardcolin/uw-madison-course-data. You can use this repository to get updated course data.
+5 (Optional). The course data used for this chatbot came from https://github.com/maggardcolin/uw-madison-course-data. You can use this repository to get updated course data.
    - follow this repositories instructions to get a json file and move that file back into the course chatbot project folder.
    - run the toCSV.py file with your new data as an argument to prep the data to be used to make new embeddings
