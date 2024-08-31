@@ -11,3 +11,8 @@ How to use:
    - this will generate an embeddings file, it will take around an hour to run but you only have to do this the first time
 3. Run the streamlit app
    - streamlit run <location that you've saved the project>/UWMadison-CourseChatbot/embeddingChatbot.py
+
+Extra:
+1. The course data used for this chatbot came from https://github.com/maggardcolin/uw-madison-course-data. You can use this repository to get updated course data.
+  - follow this repositories instructions to get a json file and move that file back into the course chatbot project folder.
+  - run the toCSV.py file with your new data as an argument to prep the data to be used to make new embeddings
