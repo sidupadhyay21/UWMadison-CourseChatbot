@@ -14,5 +14,5 @@ How to use:
 
 Extra:
 1. The course data used for this chatbot came from https://github.com/maggardcolin/uw-madison-course-data. You can use this repository to get updated course data.
-  - follow this repositories instructions to get a json file and move that file back into the course chatbot project folder.
-  - run the toCSV.py file with your new data as an argument to prep the data to be used to make new embeddings
+   - follow this repositories instructions to get a json file and move that file back into the course chatbot project folder.
+   - run the toCSV.py file with your new data as an argument to prep the data to be used to make new embeddings
