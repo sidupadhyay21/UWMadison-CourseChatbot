@@ -7,7 +7,7 @@
      
 2. Create a .env file with your OpenAI key 
    - nano .env (this will open a text editor in the terminal where you have to type out the following line)
-   - OPENAI_API_KEY = "<your key>
+   - OPENAI_API_KEY = "<your key>"
 
 3. Stay in project folder and run embeddings.py
    - python3 embeddings.py (this will generate an embeddings file, it will take around an hour to run but you only have to do this the first time)
