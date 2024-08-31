@@ -6,10 +6,13 @@ How to use:
    - pip install pipreqs
    - pipreqs (this command creates the requirements.txt based on what you need to download)
    - pip install -r requirements.txt
-2. Stay in project folder and run embeddings.py
+2. Create a .env file with your OpenAI key
+   - nano .env (this will open a text editor in the terminal where you have to type out one line)
+   - OPENAI_API_KEY = "<your key>"
+4. Stay in project folder and run embeddings.py
    - python3 embeddings.py
    - this will generate an embeddings file, it will take around an hour to run but you only have to do this the first time
-3. Run the streamlit app
+5. Run the streamlit app
    - streamlit run <location that you've saved the project>/UWMadison-CourseChatbot/embeddingChatbot.py
 
 Extra:
